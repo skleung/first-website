@@ -1,136 +1,251 @@
 <html>
-	<head>
-		<link href="http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600,700,800" rel="stylesheet" type="text/css">
-		<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700' rel='stylesheet' type='text/css'>
-		<link href='http://fonts.googleapis.com/css?family=Lora:400,700' rel='stylesheet' type='text/css'>
-		<link href="css/styles.css" rel="stylesheet" type="text/css">
-	<meta charset="utf-8">
-	<title>Sherman Leung's Online Portfolio</title>
-	</head>
-
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<link href="http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600,700,800" rel="stylesheet" type="text/css">
+<link href='http://fonts.googleapis.com/css?family=Ubuntu:700' rel='stylesheet' type='text/css'>
+<link href="style.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="scripts/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="scripts/javascript.js" ></script>
+<script>
+</script>
+<title>Sherman Leung - Online Portfolio</title>
+</head>
 <body>
-	<!-- this is a comment in HTML -->
-
-	<!-- p means paragraph -->
-
-	</head>
-	<body>
-		<div id = "home">
-			<div class = "welcome-wrapper">
-				<div class = "welcome-text">
-					<h1>Sherman</h1>
-					<h1>Leung</h1>
-				</div>
-				<div class = "social">
-					<a href="https://github.com/skleung/"><img src = "images/github.png"></a>
-					<a href="http://www.linkedin.com/in/shleung"><img src = "images/linked.png"></a>					
-				</div>
-			</div>
-			<div class = "enter">
-				<div class = "enter-text">
-					<h2><a href="#about" class="scroll">Enter</a></h2>
-					<img src="images/down.png">
-				</div>
-			</div>
+<div id = "home" class = "home">
+	<div class="wrapper-center">
+		<div class = "welcome-text">
+			<h2 class= "welcome">Hi there! My name is</h2>
+			<h1 class = "title"><span class = "red">Sherman</span> </br> Leung </h1>
+			<h2><span class = "codeFlag">Code. </span><span class = "researchFlag">Research.</span> <span class = "musicFlag">Music. </span></h2>
 		</div>
-		<div id="about">
-			<div class = "wrapper">
-				<div class = "header">
-					<div class = "header-text">
-						<h1>"Hi, I'm Sherman"</h1>
-<!-- 						<h1>Welcome to my Portfolio!</h1> -->
-					</div>
-				</div>
-				<div id = "nav">
+	</div>
+</div>
+<div id = "code-home" class = "code">
+	<div class="wrapper-center">
+		<div class = "welcome-text">
+			<h2 class= "welcome">Hi there! My name is</h2>
+			<h1 class = "title"><span class = "red">Sherman</span> </br> Leung </h1>
+			<h2><span class = "red">Code. </span> Research. Music. </h2>
+		</div>
+	</div>
+</div>
+<div id = "research-home" class = "research">
+	<div class="wrapper-center">
+		<div class = "welcome-text">
+			<h2 class= "welcome">Hi there! My name is</h2>
+			<h1 class = "title"><span class = "green">Sherman</span> </br> Leung </h1>
+			<h2>Code. <span class = "green"><strong>Research.</strong></span> Music.</h2>
+		</div>
+	</div>
+</div>
+<div id = "music-home" class = "music">
+	<div class "wrapper-center">
+		<div class = "welcome-text">
+			<h2 class= "welcome">Hi there! My name is</h2>
+			<h1 class = "title"><span class = "orange">Sherman</span> </br> Leung </h1>
+			<h2>>Code. Research.<span class = "orange"><strong> Music. </strong></span</h2>
+		</div>
+	</div>
+</div>
+<div id = "nav">
+	<ul>
+		<li><a href="#home" class = "scroll"><span class = "defaultFlag">skleung</span></a></li>
+		<li class="home"><a href="#about" class = "scroll">about</a></li>
+		<li class = "home"><a href = "#home" class = "scroll"><span class = "researchFlag">research</span></a></li>
+		<li class = "home"><a href = "#home" class = "scroll"><span class = "musicFlag">music</span></a></li>
+		<span class = "research"><li><a href="#research" class = "scroll">research</a></li></span>
+		<span class = "research"><li><a href="#pubs" class = "scroll">publications</a></li></span>
+		<span class = "research"><li><a href="#researchExp" class = "scroll">experience</a></li></span>
+		<span class = "code"><li><a href="#about-code" class = "scroll">about</a></li></span>
+		<span class = "code"><li><a href="#projects" class = "scroll">projects</a></li></span>
+		<li><a href="#contact" class = "scroll">contact</a></li>
+	</ul>
+</div>
+<div id = "about" class = "home">
+	<div class = "wrapper-left">
+		<div class = "content">
+			<h1>Welcome!</h1>
+			<div class = "about-summary">
+				<ul>
+					<li class = "location" title="Current Location"> Palo Alto, CA</li>
+					<li class = "study" title="Major"> Computer Science with a Minor in Biology </li>
+					<li class = "pubs" title ="coursework"> <a href = "#classes" class="scroll">See the list of classes I've taken</a>.</li>
+				</ul>
+			</div>
+			<p> Hi, I'm Sherman! I'm a student at <a href="http://stanford.edu">Stanford</a> with interests in <span class = "codeFlag"><strong><a href = "#home" class = "scroll">coding</a></strong></span>, <span class = "researchFlag"><a href = "#home" class = "scroll"><strong>researching</strong></a></span>, and <span class = "musicFlag"><a href = "#home" class = "scroll"><strong>producing </strong></a></span> things.</p>
+			<p> This website serves as an online portfolio for my all projects: CS, research, or music-related. It's a documentation of my journey to explore interests and passions. Check back now and again to see how <span class="tiny">(g)</span>it's merged and branched off.</p>
+			<p> See what I've been up to by <a href="#home" class = "scroll">clicking on one of my interests!</a></p>
+		</div>
+	</div>
+</div>
+<div id = "about-code" class = "code">
+	<div class = "wrapper-left">
+		<div class = "content">
+			<h1>About me.</h1>
+			<div class = "about-summary">
+				<ul>
+					<li class = "location" title="Current Location"> Palo Alto, CA</li>
+					<li class = "study" title="Major"> Computer Science (Human-Computer Interaction Track)</li>
+					<li class = "cs-skills" title ="CS Skills"> HTML/CSS, JavaScript, C++/C, Java, Python</a></li>
+					<li class = "pubs" title="classes"><a href = "#classes"> See the classes I've taken below</a></li>
+				</ul>
+			</div>
+			<p> I'm a front-end developer in the process of learning more about the back-end to eventually build applications. In the <a href = "#classes" >classes</a> I've taken so far, I've built sequence alignment programs, molecular dynamic simulators in python and a BASIC interpreter and a Scramble with Friends game in C++.</p>
+			<p> I hope to be building my first applications this coming quarter and I'll be posting them on the page below. </p>
+		</div>
+	</div>
+</div>
+<div id = "projects" class = "code">
+	<div class = "wrapper-left">
+		<div class = "content">
+			<h1>Projects</h1>
+			<p> Coming Soon!</p>
+<!-- 			<div class = "project-row">
+				<ul>
+					<li><a class = "project" name = "project-1"><img src="images/featureBox/thumb01.png" alt = "featureBox"></a></li>
+					<li><a class = "project" id ="project-2"><img src="images/apamsa/thumb01.png" alt = "apamsa"></a></li>
+				</ul>
+			</div>
+			<div id = "project-2" class = "project-container">
+				<div class="thumbs">
 					<ul>
-						<li><a href = "#home" class = "scroll" id="about">home</a></li>
-						<li><a href = "#about" class = "toggle" id="about">about</a></li>
-						<li><a href = "#about" class = "toggle" id="projects">projects</a></li>
-						<li><a href = "#about" class = "toggle" id="research">research</a></li>
-						<li><a href = "#about" class = "toggle" id="publications">publications</a></li>
-						<li><a href = "#about" class = "toggle" id="contact">contact</a></li>
+						<li>
 					</ul>
 				</div>
-				<div class = "about-text">
-					<img src = "images/about.png" class = "section-icon">
-					<h1>About</h1>
-<!-- 					<div class = "about-summary">
-						<ul>
-							<li class = "location" title="Current Location"> Palo Alto, CA</li>
-							<li class = "study" title="Major"> Computer Science with a Minor in Chemistry</li>
-							<li class = "skills" title ="Skills"> HTML/CSS, Python, JavaScript, C++/C, Java</a></li>
- 							<li class = "pubs" title="classes"><a href = "#classes"> See the classes I've taken below</a></li>
-					</ul>
-					</div> -->
-					<p>Front-end developer, jazz pianist, and researcher, I'm a sophomore at Stanford University majoring in CS. I'm interested in mobile health applications and building web applications. </p>
-					<p>I got into front-end design over winter break, and I'm trying to pick up some more back-end knowledge this year so I can start building my first applications</p>
-				</div>
-				<div class = "projects-text">
-					<img src = "images/projects.png" class = "section-icon">
-					<h1>Projects</h1>
-					<p>I recently declared CS, so this page is somewhat sparse. Check back every once in a while to see what I've been up to. </p>
-					<p> The following projects I put together over winter break 2013:</p>
-					<a href = "#apamsa" class = "scroll"><div class = "project-box" id = "apamsa"></div></a>
-					<a href = "#personal" class = "scroll"><div class = "project-box" id = "personal"></a>
-					</div>
-					<div class = "project-specs" id = "apamsa">
-						<h2><a href = "http://www.stanford.edu/group/premed-apamsa/">Stanford Pre-med APAMSA </a></h2>
-						<p>I'm part of a new premed society on campus, and I wanted to design a website to get our name out there. I used LESS, JQuery, and a bit of PHP to get the email list feature working. Some features I had in mind when I designed it:
-							<ul>
-								<li>Docking navbar</li>
-								<li>Interactive members section</li>
-								<li>Designing the logo for our chapter</li>
-							</ul>
-						</p>
-						<img src = "images/apamsa/mainpage.png">						
-						<img src = "images/apamsa/01.png">
-						<img src = "images/apamsa/02.png">
-						<img src = "images/apamsa/03.png">
-					</div>
-					<div class = "project-specs" id = "personal">
-						<h2><a href="http://skleung.github.io/first-website/">Personal Website</a> </h2>					
-						<p>My first foray into web design. I built a personal portfolio just to get some experience with HTML/CSS. I learned how to use cool features from JQuery and make things interactive. Some features I thought were cool:
-							<ul>
-								<li>Toggling sections/colors</li>
-								<li>Dynamic scrolling</li>
-								<li>Having a single index.html</li>
-							</ul>
-						</p>
-						<img src = "images/personal/mainpage.png">						
-						<img src = "images/personal/02.png">
-						<img src = "images/personal/01.png">
-						<img src = "images/personal/03.png">							
-					</div>
-				</div>
-				<div class = "research-text">
-					<img src = "images/research.png" class = "section-icon">
-					<h1>Research</h1>
-					<p> I'm currently an undergraduate researcher in the <a href="https://changlab.stanford.edu">Chang laboratory</a> under the mentorship of <a href = http://www.stanford.edu/~rspitale/>Dr. Robert Spitale</a> and Ryan Flynn. My current projects involve characterizing new protein interactions that target non-coding RNA segments.</p></p> Before joining the Chang lab, I performed structural studies to further rational vaccine design for RSV and HIV-1 at the Vaccine Research Center under the direction of Dr. Jason Gorman and <a href = "http://geiselmed.dartmouth.edu/mclellan/">Dr. Jason McLellan.</a></p>
-					<p> Outside of biomedical research, I've been working on and off on an independent research project that models organic chemistry using music theory.</p>
-				</div>
-				<div class = "publications-text">
-					<img src = "images/pubs.png" class = "section-icon">
-					<h1>Pubs</h1>
-					<ol>
-						<li><strong>Leung S</strong></br><i>Musical Model of Organic Compounds</i> </br>Stanford Undergraduate Research Journal <small>(under review)</small> <a href = "http://www.stanford.edu/group/journal/cgi-bin/wordpress/?p=1093">Research Spotlight</a></li>
-						<li>McLellan J, Chen M, <strong>Leung S</strong>, Graepel K, Du X, Yang Y, Zhou T, Baxa U, Yasuda E, Beaumont T, Kumar A, Modjarrad K, Zheng Z, Zhao M, Xia N, Kwong P, Graham B.</br><i>Structure of RSV Fusion Glycoprotein Trimer Bound to a Prefusion-Specific Neutralizing Antibody</i></br>
-						<a href = "http://www.sciencemag.org/content/340/6136/1113.abstract">Science</a>. 2013 May: 340:1113-1117.</li>
-						<li><strong>Leung S</strong>,Timofeeva O. </br><i>Simultaneous inhibition of SRC and STAT3 induces a stronger apoptotic response in prostate cancer cells</i> </br> <a href="jess.com">Journal of Experimental Secondary Science</a> 2011 Oct: 1:15-20.</li>
-					</ol>
-				</div>
-				<div class = "contact-text">
-					<img src = "images/contact.png" class = "section-icon">
-					<h1>Contact</h1>
-					<p>You can contact me at <strong>me@shermanleung.com</strong></p>
-				</div>
-			</div>
+
+			</div> -->
 		</div>
-		<div class = "footer">
-			<div class = "wrapper">
-				Last updated <strong>1/8/14</strong>. Copyright © 2014 Sherman Leung.
-			</div>
+	</div>
+</div>
+<div id = "classes" class = "code">
+	<div class = "large-wrapper-left">
+		<div class = "content">
+			<h1> Coursework </h1>
+			<table>
+				<tr>
+					<td class="date">Fall 2013</td>
+					<td>Organic Monofunctional Compounds (Burns/Huestis); Genetics, Biochemistry, and Molecular Biology (Simoni/Bergmann); Representations and Algorithms in Computational Biology (Altman); Organic Chemistry Laboratory I (McClory); Peer Tutor Training (Randazzo)</td>
+				</tr>
+				<tr>
+					<td class ="date">Spring 2013</td>
+					<td>Structure and Reactivity (Wender); Computer Organization and Systems (Zelenski); Standard C++ Programming Laboratory (Watson); Writing & Rhetoric I: The Power of Choice (Zurowski)</td>
+				</tr>
+				<tr>
+					<td class ="date">Winter 2013</td>
+					<td>Programming Abstractions (Roberts); Mathematical Foundations of Computing (Schwartz); Mechanics (Burchat); Classical Mechanics Laboratory; </td>
+				</tr>
+				<tr>
+					<td class ="date">Fall 2012</td>
+					<td>Linear Algebra and Differential Calculus of Several Variables (Rodriguez); Introduction to American Law (Friedman); Chemical Principles (Cox/Zare); Science in the News</td>
+				</tr>
+			</table>
 		</div>
-	</body>
-	<script type="text/javascript" src="js/jquery-1.7.2.min.js"></script>
-	<script type="text/javascript" src="js/script.js" ></script>
+	</div>
+</div>
+<div id = "music" class = "music">
+	<div class = "wrapper-left">
+		<div class = "content">
+			<h1>Music</h1>
+			<div class = "about-summary">
+				<ul>
+					<li class = "genre" title="Genre"> R&B, Soul </li>
+					<li class = "piano" title="Skills"> Jazz improvisation </li>
+				</ul>
+			</div>
+			<p>I just recently started producing music. My compositions can be seen on my <a href = "http://www.youtube.com/channel/UCU1v9WfUIdrJ0nf0A9RGvJQ">YouTube</a> and SoundCloud account.</p>
+			<p>I also improvise background music for whatever the occasion. I  cover R&B and top 40 songs, but I mostly improvise in jazz. To hear a sample of the style I improvise in, check out my <a href = "http://www.youtube.com/channel/UCU1v9WfUIdrJ0nf0A9RGvJQ">YouTube</a> channel.</p>
+			<p>At Stanford, I'm in an acapella group called <a href = "http://everydaypeople.org/wp/">Everyday People</a>. We sing soul, mo-town, R&B, and hip-hop and perform around the Bay Area and on campus. Check out our website and <a href= "http://www.youtube.com/user/StanfordEverdayPpl?feature=watch">YouTube</a> channel.</p>
+		</div>
+	</div>
+</div>
+
+</div>
+<div id = "research" class = "research">
+	<div class = "wrapper-left">
+		<div class = "content">
+			<h1>Research</h1>
+			<div class = "about-summary">
+				<ul>
+					<li class = "location" title="Current Location"> Howard Y. Chang Laboratory (HHMI/Stanford University of Medicine)</li>
+					<li class = "skills" title="Research Skills"> RNA purification, Cell culture, Protein purification/crystallization/refinement </li>
+					<li class = "pubs" title ="publications"> <a href = "#pubs" class="scroll">See list below</a>.</li>
+				</ul>
+			</div>
+			<p> I'm currently an undergraduate researcher in the <a href="https://changlab.stanford.edu">Chang laboratory</a> under the mentorship of Dr. <a href = http://www.stanford.edu/~rspitale/> Robert Spitale</a> and Ryan Flynn. My current projects involve characterizing new proteininteractions that target non-coding RNA segments. Before joining the Chang lab, I performed structural studies to further rational vaccine design for RSV and HIV-1 at the Vaccine Research Center under the direction of Dr. Peter Kwong.</p>
+			<p> Outside of biomedical research, I have an independent research project that models organic chemistry using music theory that is under review. The manuscript for the model can be viewed <a>here</a>.</p>
+		</div>
+	</div>
+</div>
+<div id = "pubs" class = "research">
+	<div class = "large-wrapper-left">
+		<div class = "content">
+			<h1>Publications</h1>
+			<ol>
+				<li><strong>Leung S</strong></br>Musical Model of Organic Compounds </br>Stanford Undergraduate Research Journal (under review)</li>
+				<li>McLellan J, Chen M, <strong>Leung S</strong>, Graepel K, Du X, Yang Y, Zhou T, Baxa U, Yasuda E, Beaumont T, Kumar A, Modjarrad K, Zheng Z, Zhao M, Xia N, Kwong P, Graham B.</br>Structure of RSV Fusion Glycoprotein Trimer Bound to a Prefusion-Specific Neutralizing Antibody</br>
+<a href = "http://www.sciencemag.org/content/340/6136/1113.abstract">Science</a>. 2013 May: 340:1113-1117.</li>
+				<li><strong>Leung S</strong>,Timofeeva O. </br>Simultaneous inhibition of SRC and STAT3 induces a stronger apoptotic response in prostate cancer cells </br> <a href="jess.com">Journal of Experimental Secondary Science</a> 2011 Oct: 1:15-20.</li>
+			</ol>
+			</br>
+			</br>
+			<div class = "researchExpFlag"><a href="#researchExp" class = "scroll">See where I've worked</a></div>
+		</div>
+	</div>
+</div>
+<div id = "researchExp" class = "research">
+	<div class = "large-wrapper-left">
+		<div class = "content">
+			<h1> Experience </h1>
+			<table>
+				<tr>
+					<td class ="date">Fall 2013 - <strong>current</strong></td>
+					<td><strong>Undergraduate Volunteer</strong> in the Howard Y. Chang Laboratory (Howard Hughes Medical Institute, Stanford University School of Medicine)</br>Supervised by Dr. Robert Spitale and Ryan Flynn</br>I perform protein-RNA characterization using selective 2'hydroxyl activation primer extension (SHAPE)</td>
+				</tr>
+				<tr>
+					<td class ="date">Summer 2013</td>
+					<td><strong>IRTA Intern</strong> at the Structural Biology Section of the Vaccine Research Center (NIH)</br>Supervised by Dr. Jason Gorman</br>I studied HIV-1 trimer designs by characterizing their binding affinity to HIV-1 bnAbs.</br><li>See the <strong><a href = "#">Exit talk</a></strong> I gave.</li></td>
+				</tr>
+				<tr>
+					<td class ="date">Summer 2012</td>
+					<td><strong>IRTA Intern</strong> at the Structural Biology Section of the Vaccine Research Center (NIH)</br>Supervised by Dr. <a href="http://geiselmed.dartmouth.edu/mclellan/">Jason McLellan</a></br>I characterizied and crystallized an antibody that bound the pre-fusion conformation of the RSV fusion glycoprotein trimer.</br><li><strong>Third author</strong> on a Science publication</li></td>
+				</tr>
+				<tr>
+					<td class ="date">Summer 2011</td>
+					<td><strong>Volunteer Researcher</strong> at the Lombardi Comprehensive Cancer Center (Georgetown)</br>Supervised by Dr. Olga Timofeeva</br>I performed in vitro studies of <italic>SRC</italic> and <italic>STAT3</italic> in prostate cancer cells. </br>First author on <a href="#">JESS publication</a>.</br> <li><strong>2012 Intel STS Semifinalist</strong></li> <li><strong>1st Prize</strong> in Microbiology at the Montgomery County Science Fair</li></td>
+				</tr>
+			</table>
+		</div>
+	</div>
+</div>
+<div id = "contact">
+	<div class = "wrapper-left">
+		<div class = "content">
+			<h1> Send me a msg </h1>
+			<form name="contact-form" id="contact-form">
+			<div class = "left">
+				<label for = "name"> Name: </label></br>
+				<input class = "form-input" id = "name" type = "text" size = "25">
+				<br>
+				<br>
+				<label for = "email"> Email: </label></br>
+				<input class = "form-input" id = "email" type = "text" size = "25">
+				<br>
+				<br>
+				<label for = "name"> Subj: </label></br>
+				<input class = "form-input" id = "name" type = "text" size = "25">
+			</div> 
+			<div class = "right">
+          		<label for="message">Message:</label></br>
+            	<textarea class="form-input" id="message" name="message" rows="6" cols="40"></textarea>
+          		</br>
+          		</br>
+          		<input class="form-button" id="reset" type="reset" name="resetButton" value="Reset" />
+          		<input class="form-button" id="send" type="submit" name="submitButton" value="Send" />
+          		<span class="error" id="err-form">&nbsp;Uh oh, try again.</span> <span class="error" id="err-timedout">The connection timed out.</span> <span class="error" id="err-state"></span> <span class="success">Message sent.</span> 
+          	</div>
+          	</form>
+		</div>
+	</div>
+</div>
+</body>
 </html>
